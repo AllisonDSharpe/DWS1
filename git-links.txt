@@ -1,2 +1,2 @@
-https://github.com/AllisonDSharpe/dws1
-file:///Users/Allisonsharpe/Documents/dws1/project1/index.html
+https://github.com/allisondsharpe/dws1
+http://allisondsharpe.github.com/dws1/

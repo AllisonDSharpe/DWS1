@@ -28,7 +28,7 @@ h1 {
 	font-weight: bold; 
 	line-height: 80%; 
 	padding: 20px;
-		}
+	}
 		
 /* h2 elements */		
 h2 {
@@ -36,7 +36,7 @@ h2 {
 	font-family: Open Sans, sans-serif; 
 	font-size: 2.0em; 
 	font-weight: bold; 
-	line-height: 30%; 
+	line-height: 20%; 
 	text-align: center; 
 	text-shadow: 2px 3px #666666;
 	text-transform: uppercase; 
@@ -127,34 +127,33 @@ ol {
 	border-bottom-left-radius: 2em;
 	border-top-right-radius: 2em;
 	border-bottom-right-radius: 2em;
-	padding: 10px; 
-	display: block; 
+	padding: 10px;  
 	}
 	
 /* image elements */				
 #images {
 	font-family: Open Sans, sans-serif;
 	font-style: italic; 
-	text-align: center; 
-			}
+	text-align: center;
+		}
 
 /* image source elements */
 #imageSources {
 	font-family: Open Sans, sans-serif;
 	text-align: center; 
-	opacity: 0.8; 
-	    		 }
-	    		 
+	    	 }
+	    
+/* image hover elements */		 
 img:hover {
 	border: 2px dashed #ffffff; 
  	padding: 2px; 
  	background-color: #666666;
  	margin: 6px; 
-	}
+	      }
 	
 /* contact information elements */
-#email {
-	font-family: arial;
+#contactMe {
+	font-family: Open Sans, sans-serif;
 	text-align: center; 
-	opacity: 0.5; 
-	}
+	opacity: 0.8;
+	        }

@@ -95,6 +95,7 @@ li {
 	font-family: Open Sans, sans-serif; 
 	text-align: center;
 	list-style: lower-roman; 
+	display: block;  
 	margin: 1em; 
 	}
 	
@@ -115,7 +116,7 @@ ul {
 
 /* ordered list elements */	
 ol {
-	color: #000000;
+	color: #666666;
 	text-align: center;
 	border: 3px #666666;
 	border-style: solid; 

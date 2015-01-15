@@ -90,15 +90,6 @@ a:active {
 	color: #666666;
 	}	
 	
-/* list item elements */
-li {
-	font-family: Open Sans, sans-serif; 
-	text-align: center;
-	list-style: lower-roman; 
-	display: block;  
-	margin: 1em; 
-	}
-	
 /* unordered list elements */	
 ul {
 	color: #000000;
@@ -112,6 +103,14 @@ ul {
 	border-top-right-radius: 2em;
 	border-bottom-right-radius: 2em;
 	padding: 10px; 
+	}
+	
+/* list item elements */
+li {
+	font-family: Open Sans, sans-serif; 
+	text-align: center;
+	list-style: lower-roman;  
+	margin: 1em; 
 	}
 
 /* ordered list elements */	

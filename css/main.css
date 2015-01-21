@@ -1,7 +1,7 @@
 /* body elements */
 body {
-	background-color: #BAC3A2;
-	color: #666666;
+	background-color: rgb(186, 195, 162);
+	color: rgb(102, 102, 102);
 	width: 900px;
 	height: 4150px;
     padding: 30px 30px;
@@ -101,7 +101,7 @@ li {
 
 /* ordered list elements */	
 ol {
-	color: #000000;
+	color: #666666;
 	font-family: Open Sans, sans-serif; 
 	text-align: center;
 	border: 3px solid #666666;

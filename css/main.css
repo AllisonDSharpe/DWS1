@@ -9,11 +9,10 @@ body {
 #content {
 	background: linear-gradient(#d4d3a1, #f4e6a9); 
 	width: 85%;
-	height: 60%;
+	margin: 20px auto; 
     padding: 10px 10px;
 	border: 2px solid #666666;
     border-radius: 2em 2em; 
-    margin: 20px auto; 
     box-shadow: 2px 2px #d4d3a1;
 	}
 	
@@ -149,9 +148,8 @@ ol {
 /* image gallery elements */		
 #imageGallery {
 	background-image: url("../images/sand-blossom.gif");
-	background-repeat: repeat; 
+	background-repeat: no-repeat; 
 	background-position: center; 
-	clear: left; 
 	border: 3px solid #666666;
 	border-radius: 2em 2em; 
 	margin: 50px 300px; 

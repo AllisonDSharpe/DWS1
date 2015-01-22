@@ -25,7 +25,8 @@ body {
 	width: 360px;
 	margin: 10px; 
 	padding: 2px; 
-	border: 3px solid #666666
+	border: 3px dotted #666666;
+	border-radius: 2em 2em; 
 	}	
 
 /* h1 elements */
@@ -99,10 +100,12 @@ a:active {
 	color: #666666;
 	}	
 	
+/* gaming console elements */	
 #consoles {
 	clear: left;
-	border: 3px solid #666666;
+	border: 3px dotted #666666;
 	border-radius: 2em 2em;
+	margin: 0px 300px; 
 }
 	
 /* unordered list elements */	

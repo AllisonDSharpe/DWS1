@@ -100,7 +100,9 @@ a:active {
 	}	
 	
 #consoles {
-	clear: left; 
+	clear: left;
+	border: 3px solid #666666;
+	border-radius: 2em 2em;
 }
 	
 /* unordered list elements */	

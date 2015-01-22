@@ -99,6 +99,10 @@ a:active {
 	color: #666666;
 	}	
 	
+#consoles {
+	clear: left; 
+}
+	
 /* unordered list elements */	
 ul {
 	color: #000000;

@@ -147,9 +147,9 @@ ol {
 
 /* table elements */
 table {
-	width: 500px; 
-	height: 50px; 
-	margin: 50px 410px; 
+	width: 40%; 
+	height: 50%; 
+	margin: 50px 390px; 
 	padding: 10px; 
 	text-transform: uppercase;  
 	font-family: Open Sans, sans-serif;
@@ -158,11 +158,11 @@ table {
 	background-color: #f4e6a9;
 	color: #666666;
 	border: 2px solid #666666;
-	border-spacing: 20px; 
 	border-collapse: collapse; 
 }
 
-td, th {
+/* table data and heading elements */
+td, th, tr:hover {
 	border: 2px solid #666666; 
 	padding: 10px;  
 	text-align: left; 
@@ -176,7 +176,7 @@ tr :hover {
  	margin: 6px; 
 }
 		
-/* image gallery elements */		
+/* article elements */		
 article {
 	background-image: url("../images/sand-blossom.gif");
 	background-repeat: repeat; 
@@ -207,14 +207,14 @@ img:hover {
 	
 /* form elements */        
 form { 
-	width: 35%;  
-	height: 50%; 
+	width: 50%;  
+	height: 100%; 
 	text-align: left;
 	font-family: Open Sans, sans-serif; 
 	font-size: 0.9em; 
 	border: 2px dotted #666666; 
 	border-radius: 2em 2em; 
-	margin: 30px 270px; 
+	margin: 30px 290px; 
 	padding: 20px; 
 	background-color: #d4d3a1;
 	color: #666666;
@@ -228,9 +228,19 @@ form :hover, form :focus {
  	margin: 6px; 
 }
 	
-/* form paragraph elements */
-title {
-	float: left;
+/* "title" class elements */
+.title {
+	float: left; 
+	width: 28%; 
+	clear: left; 
+}
+
+/* form hover elements */
+form :hover, form :focus {
+	background-color: #f4e6a9;
+	border: 2px solid #666666; 
+ 	padding: 2px; 
+ 	margin: 6px; 
 }
 
 /* text area elements */	        
@@ -239,9 +249,10 @@ textarea {
 	width: 50%; 
 	border: 1px solid #666666;
 	padding: 20px;  
+	margin: 0px 10px; 
 	}
 	
-/* contact information elements */	        	        
+/* footer elements */	        	        
 footer {
 	margin: 100px 50px; 
 	background: url("../images/flower.png");
@@ -249,7 +260,7 @@ footer {
 	background-position: right bottom; 	
 }	    
       
-/* email and copyright elements */
+/* copyright elements */
 #copyright {
 	font-family: Open Sans, sans-serif;
 	text-align: center; 

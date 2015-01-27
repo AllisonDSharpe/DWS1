@@ -23,7 +23,7 @@ body {
 	float: left; 
 	width: 30%;
 	margin: 15px; 
-	padding: 3px; 
+	padding: 2px; 
 	border: 3px dotted #666666;
 	border-radius: 2em 2em; 
 	}	
@@ -53,6 +53,7 @@ h2 {
 	text-shadow: 2px 3px #666666;
 	text-transform: uppercase; 
 	text-decoration: underline; 
+	padding: 10px 10px; 
 	}
 	
 /* h3 elements */		
@@ -65,7 +66,7 @@ h3 {
 	font-weight: bold; 
 	text-decoration: underline; 
 	}
-	
+
 /* paragraph elements */		
 p {
 	font-family: Open Sans, sans-serif;
@@ -106,6 +107,7 @@ a:active {
 	border: 3px dotted #666666;
 	border-radius: 2em 2em;
 	margin: 0px 200px; 
+	padding: 20px; 
 }
 
 /* aside elements */
@@ -145,23 +147,31 @@ ol {
 
 /* table elements */
 table {
-	width: 400px; 
-	margin: 50px 450px; 
+	width: 500px; 
+	height: 50px; 
+	margin: 50px 410px; 
 	padding: 10px; 
 	text-transform: uppercase;  
 	font-family: Open Sans, sans-serif;
 	font-size: 1.1em;
-	text-align: center; 
-	background-color: #d4d3a1;
+	text-align: left; 
+	background-color: #f4e6a9;
 	color: #666666;
 	border: 2px solid #666666;
-	border-spacing: 10px; 
+	border-spacing: 20px; 
+	border-collapse: collapse; 
+}
+
+td, th {
+	border: 2px solid #666666; 
+	padding: 10px;  
+	text-align: left; 
 }
 
 /* table hover elements */
-table :hover {
-	background-color: #f4e6a9;
-	border: 2px solid #666666; 
+tr :hover {
+	background-color: #d4d3a1;
+	border: 2px dashed #666666; 
  	padding: 2px; 
  	margin: 6px; 
 }
@@ -183,7 +193,8 @@ article {
 	font-family: Open Sans, sans-serif;
 	text-align: center; 
 	border: 3px solid #666666; 
-	border-radius: 2em 2em; 
+	border-radius: 2em 2em;
+	margin: 30px 300px;  
 	    	 }
 		    
 /* image hover elements */		 
@@ -196,24 +207,36 @@ img:hover {
 	
 /* form elements */        
 form { 
+	width: 35%;  
+	height: 50%; 
 	text-align: left;
 	font-family: Open Sans, sans-serif; 
 	font-size: 0.9em; 
 	border: 2px dotted #666666; 
 	border-radius: 2em 2em; 
-	margin: 30px 300px; 
-	padding: 30px; 
+	margin: 30px 270px; 
+	padding: 20px; 
+	background-color: #d4d3a1;
+	color: #666666;
 	}
+
+/* form hover elements */
+form :hover, form :focus {
+	background-color: #f4e6a9;
+	border: 2px solid #666666; 
+ 	padding: 2px; 
+ 	margin: 6px; 
+}
 	
 /* form paragraph elements */
-form p {
+title {
 	float: left;
 }
 
 /* text area elements */	        
 textarea {
 	text-align: left; 
-	width: 30%; 
+	width: 50%; 
 	border: 1px solid #666666;
 	padding: 20px;  
 	}

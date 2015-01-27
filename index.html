@@ -61,11 +61,11 @@
 		<aside>
 			<p><a href="http://en.wikipedia.org/wiki/Video_game_genres"><em>Source: Wikipedia</em></a></p> <!--Link citing webpage from Wikipedia-->
 		</aside>
-		</div> <!--Closing div tag for "genres"-->
+	 </div> <!--Closing div tag for "genres"-->
 		
 		<div id="consoles"> <!--Opening div tag for "consoles"-->
 		
-			<h3> Gaming Consoles </h3>
+			<h2> Gaming Consoles </h2>
 			<p> A <strong>video game console</strong> is a device that outputs a video signal or visual image to display a video game. The term <q>video game console</q> is used to distinguish a console machine primarily designed for consumers to use for playing video games in contrast to arcade machines or home computers. It includes the home video game consoles, the handheld game consoles, the microconsoles and the dedicated consoles. Although Ralph Baer had built working game consoles by 1966, it was nearly a decade before Pong made them commonplace in home theaters. Through evolution over the years, game consoles have expanded to function as CD players, DVD players, web browsers, set-top boxes and more.</p>
 			
 		<aside>
@@ -82,7 +82,7 @@
 		</div> <!--Closing div tag for "consoles"-->
 		
 		<article> <!--Opening div tag for "image gallery"-->
-			<h3> Image Gallery </h3>
+			<h2> Image Gallery </h2>
 					<figure>
 						<a href="images/xbox-large.jpg"
 						target="_blank"> <img src="images/xbox.jpg"
@@ -118,25 +118,46 @@
 				  <li> <a href="https://www.flickr.com/photos/ian-flynn/4411658154/in/photolist"> Playstation Image </a> </li>
 				  <li> <a href="https://www.flickr.com/photos/mgiraldo/3049446350/in/photolist"> Nintendo Image </a> </li>
 				</ol>
-			</div> <!--Closing div tag for "image sources"-->
+			</div> <br><br> <!--Closing div tag for "image sources"--> 
 			
+		<h2> Video Game Genre Statistics </h2> 	
 		<table>
 			<tr>
-				<th> Table Heading 1 </th> 
-				<td> Column 1 info </td> 
-			</tr>
-			<tr>
-				<th> Table Heading 2 </th> 
-				<td> Column 2 info </td>
-			</tr>
-			<tr>
-				<th> Table Heading 3 </th> 
-				<td> Column 3 info </td>
+				<th scope="row"> Genres </th>
+				<th scope="row"> Statistics </th> 
 			</tr> 
 			<tr>
-				<th> Table Heading 4 </th> 
-				<td> Column 4 info </td>
+				<td> Trivia/Word/Puzzle </td> 
+				<td> 33% </td> 
+			</tr>
+			<tr>
+				<td> Action/Adventure/Shooter </td> 
+				<td> 18% </td>
+			</tr>
+			<tr>
+				<td> Role-playing/Strategy </td> 
+				<td> 10% </td>
 			</tr> 
+			<tr>
+				<td> Sports </td> 
+				<td> 10% </td>
+			</tr> 
+			<tr>
+				<td> Gambling </td>
+				<td> 10% </td> 
+			</tr> 
+			<tr> 
+				<td> Simulation </td>
+				<td> 8% </td> 
+			</tr>
+			<tr> 
+				<td> Racing/driving </td>
+				<td> 5% </td>
+			</tr>
+			<tr>
+				<td> Fitness/Music </td> 
+				<td> 3% </td> 
+			</tr>
 		</table> 
 			
 			
@@ -145,55 +166,52 @@
 			<h2> Contact Information </h2>
 			<p> Please take a few minutes to fill out the form below. Thank you! </p>
 			
-			<form
-				action="mailto:allisonsharpe@ymail.com"
-				method="post" >
-				<input type="search" name="search"
-				 	placeholder="Enter keyword" />
-				<input type="submit" value="Search" /> <br><br>
-				
-				<p> 1) What is your name?: </p> 
-				<label for="firstname">First Name:</label> 
+			<form action="mailto:allisonsharpe@ymail.com" method="post">
+			
+				<label for="search" class="title">Search:</label>
+					<input type="search" id="search"
+				 	 placeholder="Enter keyword" />
+				    <input type="submit" value="Search" /> <br><br>  
+			
+				<label for="firstname" class="title">First Name:</label> 
 					<input type="text" name="firstname" 	
-				     placeholder="Enter your first name" 
-					 id="firstname" 
-				 	 maxlength="30"
-				 	 required="required" /> <br><br>
-				<label for="lastname">Last Name:</label> 
+				      placeholder="Enter your first name" 
+					  id="firstname" 
+				 	  maxlength="30"
+				 	  required="required" /> <br><br>
+				 	  
+				<label for="lastname" class="title">Last Name:</label> 
 					<input type="text" name="lastname" 
 					 placeholder="Enter your last name" 
 				     id="lastname" 
 				     maxlength="30" 
 				     required="required" /> <br><br>
-				 	 
-				 	 <p> 2) Please select your gender: </p> 
-				 	 <input id="female" type="radio"
-				 	  name="gender" value="f" />
-				 	 <label for="female">Female</label>
-				 	 <input id="male" type="radio"
-				 	  name="gender" value="m" />
-				 	 <label for="male">Male</label> <br><br> 
-				 	 
-		 
-				<p> 3) Rate your overall experience: </p> 
-				<select name="consoles">
-					<option value="poor"
-				 	 selected>Poor</option> 
-					<option value="belowaverage">Below Average</option>
-					<option value="average">Average</option>
-				 	<option value="good">Good</option>
-				 	<option value="excellent">Excellent</option>
-			 	</select> <br><br>
+	
+				<label for="gender" class="title">Gender:</label> 
+				 	<input id="female" type="radio"
+				 	 name="gender" value="f" />
+				    <label for="female" class="title">Female</label>
+				 	<input id="male" type="radio"
+				 	 name="gender" value="m" />
+				    <label for="male" class="title">Male</label> <br><br> 
 
-				<p> 4) Give me your feedback: </p> 
-				<textarea name="comments"> Leave a comment.. 
-				</textarea> <br><br>
-				
-				<p> 5) Submit your responses to my personal email: </p> 
-				<input type="text" name="email" />
-				<input type="submit"
-					value="Submit" /> 
-			</form> 
+				 <label for="console" class="title">Your overall satisfaction: </label>
+					<select id="console">
+						<option value="poor">Poor</option> 
+						<option value="belowaverage">Below Average</option>
+						<option value="average">Average</option>
+				 		<option value="good">Good</option>
+				 		<option value="excellent">Excellent</option>
+			 		</select> <br><br>
+
+				<label for="comments" class="title">Feedback:</label>
+					<textarea name="comments" id="comments"> Leave a comment.. </textarea> <br><br>
+		
+				<label for="submit" class="title">Submit your form:</label>
+					<input type="text" id="submit" />
+					<input type="submit"
+					 value="Submit" /> <br><br> 
+			</form>
 			
 		</footer> 
 			

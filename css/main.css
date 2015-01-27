@@ -8,7 +8,7 @@ body {
 /* content elements */	
 #content {
 	background: linear-gradient(#d4d3a1, #f4e6a9); 
-	width: 85%;
+	width: 95%;
 	margin: 20px auto; 
     padding: 10px 10px;
 	border: 2px solid #666666;
@@ -21,9 +21,9 @@ body {
 	background-repeat: repeat; 
 	background-position: center; 
 	float: left; 
-	width: 360px;
-	margin: 10px; 
-	padding: 2px; 
+	width: 30%;
+	margin: 15px; 
+	padding: 3px; 
 	border: 3px dotted #666666;
 	border-radius: 2em 2em; 
 	}	
@@ -73,6 +73,11 @@ p {
 	padding: 10px; 
 	}	
 
+/* header elements */	
+header {
+
+}
+
 /* strong elements */
 strong {
 	color: #ffffff; 
@@ -106,15 +111,19 @@ a:active {
 	border-radius: 2em 2em;
 	margin: 0px 300px; 
 }
+
+/* aside elements */
+aside {
+	text-align: center; 
+	}
 	
-/* unordered list elements */	
-ul {
+/* navigational elements */	
+nav {
 	color: #000000;
 	font-family: Open Sans, sans-serif;
 	text-align: center; 
 	border: 3px solid #666666;
 	border-radius: 10em 10em; 
-	padding: 10px; 
 	}
 	
 /* list item elements */
@@ -138,8 +147,8 @@ ol {
 	display: list-item; 
 }
 	
-/* image elements */				
-#images {
+/* article elements */				
+article {
 	font-family: Open Sans, sans-serif;
 	font-style: italic; 
 	text-align: center;
@@ -170,19 +179,37 @@ img:hover {
  	padding: 2px; 
  	margin: 6px; 
 	      }
-	         
+	        
+form {
+	text-align: center;
+	font-family: Open Sans, sans-serif; 
+	border: 2px dotted #666666; 
+	border-radius: 2em 2em; 
+	margin: 30px 300px; 
+	padding: 30px; 
+	}
+
+/* text area elements */	        
+textarea {
+	text-align: left; 
+	width: 30%; 
+	border: 1px solid #666666;
+	padding: 20px;  
+	}
+	
 /* contact information elements */	        	        
-#contactInformation {
-	margin: 90px; 
+footer {
+	margin: 100px 50px; 
 	background: url("../images/flower.png");
 	background-repeat: no-repeat; 
 	background-position: right bottom; 	
 }	    
+
 	      
 /* email and copyright elements */
-#contactMe {
+#copyright {
 	font-family: Open Sans, sans-serif;
 	text-align: center; 
-	margin: 30px; 
+	margin: 10px auto; 
 	opacity: 0.7;
-	        }
+	}

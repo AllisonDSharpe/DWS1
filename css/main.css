@@ -74,11 +74,6 @@ p {
 	padding: 10px; 
 	}	
 
-/* header elements */	
-header {
-
-}
-
 /* strong elements */
 strong {
 	color: #ffffff; 
@@ -148,13 +143,14 @@ ol {
 	display: list-item; 
 }
 
+/* table elements */
 table {
 	width: 400px; 
 	margin: 50px 450px; 
 	padding: 10px; 
 	text-transform: uppercase;  
 	font-family: Open Sans, sans-serif;
-	font-size: 1.1em 
+	font-size: 1.1em;
 	text-align: center; 
 	background-color: #d4d3a1;
 	color: #666666;
@@ -162,29 +158,24 @@ table {
 	border-spacing: 10px; 
 }
 
+/* table hover elements */
 table :hover {
 	background-color: #f4e6a9;
 	border: 2px solid #666666; 
  	padding: 2px; 
  	margin: 6px; 
 }
-
-	
-/* article elements */				
-article {
-	font-family: Open Sans, sans-serif;
-	font-style: italic; 
-	text-align: center;
-		}
 		
 /* image gallery elements */		
-#imageGallery {
+article {
 	background-image: url("../images/sand-blossom.gif");
 	background-repeat: repeat; 
 	background-position: center; 
 	border: 3px solid #666666;
 	border-radius: 2em 2em; 
 	margin: 50px 400px; 
+	font-family: Open Sans, sans-serif; 
+	text-align: center;
 }		
 
 /* image source elements */
@@ -202,9 +193,10 @@ img:hover {
  	padding: 2px; 
  	margin: 6px; 
 	      }
-	        
+	
+/* form elements */        
 form { 
-	text-align: center;
+	text-align: left;
 	font-family: Open Sans, sans-serif; 
 	font-size: 0.9em; 
 	border: 2px dotted #666666; 
@@ -212,6 +204,11 @@ form {
 	margin: 30px 300px; 
 	padding: 30px; 
 	}
+	
+/* form paragraph elements */
+form p {
+	float: left;
+}
 
 /* text area elements */	        
 textarea {
@@ -228,8 +225,7 @@ footer {
 	background-repeat: no-repeat; 
 	background-position: right bottom; 	
 }	    
-
-	      
+      
 /* email and copyright elements */
 #copyright {
 	font-family: Open Sans, sans-serif;

@@ -14,18 +14,6 @@ body {
 	border: 2px solid #666666;
     border-radius: 2em 2em; 
     box-shadow: 2px 2px #d4d3a1;
-	}
-	
-/* introduction, history, and genre elements */	
-#introduction, #history, #genres {
-	background-repeat: repeat; 
-	background-position: center; 
-	float: left; 
-	width: 30%;
-	margin: 15px; 
-	padding: 2px; 
-	border: 3px dotted #666666;
-	border-radius: 2em 2em; 
 	}	
 
 /* h1 elements */
@@ -66,6 +54,18 @@ h3 {
 	font-weight: bold; 
 	text-decoration: underline; 
 	}
+	
+/* introduction, history, and genre elements */	
+#introduction, #history, #genres {
+	background-repeat: repeat; 
+	background-position: center; 
+	float: left; 
+	width: 30%;
+	margin: 15px; 
+	padding: 2px; 
+	border: 3px dotted #666666;
+	border-radius: 2em 2em; 
+	}	
 
 /* paragraph elements */		
 p {
@@ -74,7 +74,7 @@ p {
 	text-align: center; 
 	padding: 10px; 
 	}	
-
+	
 /* strong elements */
 strong {
 	color: #ffffff; 
@@ -85,8 +85,8 @@ a:link {
 	color: #000000;
 	}
 
-/* visited link element */	
-a:visited {
+/* visited and active link elements */	
+a:visited, a:active {
 	color: #666666;
 	}
 
@@ -94,25 +94,6 @@ a:visited {
 a:hover {
 	color: #ffffff; 
 	text-decoration: underline;
-	}
-
-/* active link element */	
-a:active {
-	color: #666666;
-	}	
-	
-/* gaming console elements */	
-#consoles {
-	clear: left; 
-	border: 3px dotted #666666;
-	border-radius: 2em 2em;
-	margin: 0px 200px; 
-	padding: 20px; 
-}
-
-/* aside elements */
-aside {
-	text-align: center; 
 	}
 	
 /* navigational elements */	
@@ -144,7 +125,50 @@ ol {
 	list-style: lower-roman none; 
 	display: list-item; 
 }
+		
+/* gaming console elements */	
+#consoles {
+	clear: left; 
+	border: 3px dotted #666666;
+	border-radius: 2em 2em;
+	margin: 0px 200px; 
+	padding: 20px; 
+}
 
+/* aside elements */
+aside {
+	text-align: center; 
+	}
+	
+/* article elements */		
+article {
+	background-image: url("../images/sand-blossom.gif");
+	background-repeat: repeat; 
+	background-position: center; 
+	border: 3px solid #666666;
+	border-radius: 2em 2em; 
+	margin: 50px 400px; 
+	font-family: Open Sans, sans-serif; 
+	text-align: center;
+}		
+
+/* image source elements */
+#imageSources {
+	font-family: Open Sans, sans-serif;
+	text-align: center; 
+	border: 3px solid #666666; 
+	border-radius: 2em 2em;
+	margin: 30px 300px;  
+	    	 }
+		    
+/* image hover elements */		 
+img:hover {
+	background-color: #666666;
+	border: 2px solid #ffffff; 
+ 	padding: 2px; 
+ 	margin: 6px; 
+	      }
+	      
 /* table elements */
 table {
 	width: 40%; 
@@ -175,36 +199,7 @@ tr :hover {
  	padding: 2px; 
  	margin: 6px; 
 }
-		
-/* article elements */		
-article {
-	background-image: url("../images/sand-blossom.gif");
-	background-repeat: repeat; 
-	background-position: center; 
-	border: 3px solid #666666;
-	border-radius: 2em 2em; 
-	margin: 50px 400px; 
-	font-family: Open Sans, sans-serif; 
-	text-align: center;
-}		
-
-/* image source elements */
-#imageSources {
-	font-family: Open Sans, sans-serif;
-	text-align: center; 
-	border: 3px solid #666666; 
-	border-radius: 2em 2em;
-	margin: 30px 300px;  
-	    	 }
-		    
-/* image hover elements */		 
-img:hover {
-	background-color: #666666;
-	border: 2px dashed #ffffff; 
- 	padding: 2px; 
- 	margin: 6px; 
-	      }
-	
+		      	
 /* form elements */        
 form { 
 	width: 50%;  
@@ -212,9 +207,9 @@ form {
 	text-align: left;
 	font-family: Open Sans, sans-serif; 
 	font-size: 0.9em; 
-	border: 2px dotted #666666; 
+	border: 2px solid #666666; 
 	border-radius: 2em 2em; 
-	margin: 30px 290px; 
+	margin: 30px 280px; 
 	padding: 20px; 
 	background-color: #d4d3a1;
 	color: #666666;
@@ -249,7 +244,6 @@ textarea {
 	width: 50%; 
 	border: 1px solid #666666;
 	padding: 20px;  
-	margin: 0px 10px; 
 	}
 	
 /* footer elements */	        	        

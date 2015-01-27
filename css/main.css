@@ -69,6 +69,7 @@ h3 {
 /* paragraph elements */		
 p {
 	font-family: Open Sans, sans-serif;
+	font-size: 1.0em; 
 	text-align: center; 
 	padding: 10px; 
 	}	
@@ -106,10 +107,10 @@ a:active {
 	
 /* gaming console elements */	
 #consoles {
-	clear: left;
+	clear: left; 
 	border: 3px dotted #666666;
 	border-radius: 2em 2em;
-	margin: 0px 300px; 
+	margin: 0px 200px; 
 }
 
 /* aside elements */
@@ -146,6 +147,28 @@ ol {
 	list-style: lower-roman none; 
 	display: list-item; 
 }
+
+table {
+	width: 400px; 
+	margin: 50px 450px; 
+	padding: 10px; 
+	text-transform: uppercase;  
+	font-family: Open Sans, sans-serif;
+	font-size: 1.1em 
+	text-align: center; 
+	background-color: #d4d3a1;
+	color: #666666;
+	border: 2px solid #666666;
+	border-spacing: 10px; 
+}
+
+table :hover {
+	background-color: #f4e6a9;
+	border: 2px solid #666666; 
+ 	padding: 2px; 
+ 	margin: 6px; 
+}
+
 	
 /* article elements */				
 article {
@@ -157,11 +180,11 @@ article {
 /* image gallery elements */		
 #imageGallery {
 	background-image: url("../images/sand-blossom.gif");
-	background-repeat: no-repeat; 
+	background-repeat: repeat; 
 	background-position: center; 
 	border: 3px solid #666666;
 	border-radius: 2em 2em; 
-	margin: 50px 300px; 
+	margin: 50px 400px; 
 }		
 
 /* image source elements */
@@ -180,9 +203,10 @@ img:hover {
  	margin: 6px; 
 	      }
 	        
-form {
+form { 
 	text-align: center;
 	font-family: Open Sans, sans-serif; 
+	font-size: 0.9em; 
 	border: 2px dotted #666666; 
 	border-radius: 2em 2em; 
 	margin: 30px 300px; 

@@ -122,6 +122,21 @@
 				</ol>
 			</div> <!--Closing div tag for "image sources"-->
 			
+		<table>
+			<th scope="col"> This is a table heading </th>
+			<tr>
+				<td colspan="2"> Column 1 info </td> 
+			</tr>
+			<tr>
+				<td colspan="2"> Column 2 info </td>
+			</tr>
+			<tr>
+				<td colspan="2"> Column 3 info </td>
+			</tr> 
+				<td colspan="2"> Column 4 info </td>
+			</tr> 
+		</table> 
+			
 			
 		<footer> 
 		
@@ -133,9 +148,9 @@
 				method="post" >
 				<input type="search" name="search"
 				 	placeholder="Enter keyword" />
-				<input type="submit" value="Search" /> <br><br><br>
+				<input type="submit" value="Search" /> <br><br>
 				
-				What is your name?: <br><br>
+				<p> 1) What is your name?: </p> 
 				<label for="firstname">First Name:</label> 
 					<input type="text" name="firstname" 	
 				     placeholder="Enter your first name" 
@@ -147,9 +162,9 @@
 					 placeholder="Enter your last name" 
 				     id="lastname" 
 				     maxlength="30" 
-				     required="required" /> <br><br><br> 
+				     required="required" /> <br><br>
 			
-				What is your gaming preference?: <br><br>
+				<p> 2) What is your gaming preference?: </p> 
 				<label for="playstation">Playstation</label>
 					<input type="checkbox" name="console"
 				 	 value="p" checked="checked" />
@@ -158,9 +173,9 @@
 				 	 value="x" />
 				<label for="nintendo">Nintendo</label>
 					<input type="checkbox" name="console"
-				 	 value="n" /> <br><br><br> 
+				 	 value="n" /> <br><br>
 		 
-				Rate your overall experience: <br><br> 
+				<p> 3) Rate your overall experience: </p> 
 				<select name="consoles">
 					<option value="poor"
 				 	 selected="Selected">Poor</option> 
@@ -172,13 +187,13 @@
 				 	 selected="Selected">Good</option>
 				 	<option value="excellent"
 				 	 selected="Selected">Excellent</option>
-			 	</select> <br><br><br>
+			 	</select> <br><br>
 
-				Give me your feedback: <br><br> 
+				<p> 4) Give me your feedback: </p> 
 				<textarea name="comments"> Leave a comment.. 
-				</textarea> <br><br><br>
+				</textarea> <br><br>
 				
-				Submit your responses to my personal email: <br> <br>
+				<p> 5) Submit your responses to my personal email: </p> 
 				<input type="text name="email" />
 				<input type="submit"
 					value="Submit" /> 

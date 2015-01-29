@@ -213,7 +213,6 @@ form {
 	
 /* text area elements */	        
 textarea {
-	text-align: left; 
 	width: 50%; 
 	border: 1px solid #666666; 
 	padding: 3px; 

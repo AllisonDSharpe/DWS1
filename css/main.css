@@ -179,7 +179,7 @@ table {
 	font-family: Open Sans, sans-serif;
 	font-size: 1.1em;
 	text-align: left; 
-	background-color: #f4e6a9;
+	background-color: #d4d3a1;
 	color: #666666;
 	border: 2px solid #666666;
 	border-collapse: collapse; 
@@ -194,10 +194,7 @@ td, th, tr:hover {
 
 /* table hover elements */
 tr :hover {
-	background-color: #d4d3a1;
-	border: 2px dashed #666666; 
- 	padding: 2px; 
- 	margin: 6px; 
+	background-color: #dfe1df;
 }
 		      	
 /* form elements */        
@@ -209,19 +206,11 @@ form {
 	font-size: 0.9em; 
 	border: 2px solid #666666; 
 	border-radius: 2em 2em; 
-	margin: 30px 280px; 
+	margin: 30px 285px; 
 	padding: 20px; 
 	background-color: #d4d3a1;
 	color: #666666;
 	}
-
-/* form hover elements */
-form :hover, form :focus {
-	background-color: #f4e6a9;
-	border: 2px solid #666666; 
- 	padding: 2px; 
- 	margin: 6px; 
-}
 	
 /* "title" class elements */
 .title {
@@ -230,12 +219,14 @@ form :hover, form :focus {
 	clear: left; 
 }
 
-/* form hover elements */
-form :hover, form :focus {
-	background-color: #f4e6a9;
-	border: 2px solid #666666; 
- 	padding: 2px; 
- 	margin: 6px; 
+/* "input" hover elements */
+.input:hover {
+	background-color: #dfe1df;
+}
+
+/* "input" focus elements */
+.input:focus {
+	background-color: #fef385;
 }
 
 /* text area elements */	        

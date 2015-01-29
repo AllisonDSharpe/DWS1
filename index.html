@@ -156,52 +156,51 @@
 		
 			<h2> Contact Information </h2>
 			<p> Please take a few minutes to fill out the form below. Thank you. </p>
-			
+
 			<form action="mailto:allisonsharpe@ymail.com" method="post"> <!--Opening form tag-->
 				<label for="firstname" class="title">What is Your First Name:</label> 
 					<input type="text" name="firstname" 	
 				      placeholder="Enter your first name" 
 				      id="firstname" maxlength="30" 
-				      required="required" class="input" /> <br><br>
+				      required="required" class="input" /> 
 				 	  
 				<label for="lastname" class="title">What is Your Last Name:</label> 
 					<input type="text" name="lastname" 
 					 placeholder="Enter your last name" 
 					 id="lastname" maxlength="30" 
-					 required="required" class="input" /> <br><br>
+					 required="required" class="input" /> 
 	
 				<label for="female" class="title">What is Your Gender:</label> 
 				 	<input id="female" type="radio" 
 				 	 name="gender" value="f" 
 				 	 required="required" class="input" />
-				    <label for="female">Female</label>
+				    <label for="female" class="input">Female</label>
 				 	<input id="male" type="radio" 
 				 	 name="gender" value="m" 
 				 	 required="required" class="input" />
-				    <label for="male">Male</label> <br><br> 
+				    <label for="male" class="input">Male</label> 
 
 				 <label for="console" class="title">Rate This Webpage: </label>
-					<select id="console">
+					<select id="console" class="input">
 						<option value="poor">Poor</option> 
 						<option value="belowaverage">Below Average</option>
 						<option value="average">Average</option>
 				 		<option value="good">Good</option>
 				 		<option value="excellent">Excellent</option>
-			 		</select> <br><br>
+			 		</select>
 
 				<label for="comments" class="title">Additional Comments:</label>
-					<textarea name="comments" id="comments" class="input" > Leave a comment.. </textarea> <br><br>
+					<textarea name="comments" id="comments"> Leave a comment.. </textarea> 
 		
 				<label for="submit" class="title">Submit Your Form Here:</label>
 					<input type="text" id="submit" 
 					 class="input" />
-					<input type="submit" value="Submit" /> <br><br> 
+					<input type="submit" value="Submit"/>
 					 
 				<label for="search" class="title">Search:</label>
 					<input type="search" id="search" 
-					 placeholder="Enter keyword" class="input" />
-				    <input type="submit" value="Search" 
-				     class="input" /> <br><br>  	 
+					 placeholder="Enter keyword" />
+				    <input type="submit" value="Search" />  	 
 			</form> <!--Closing form tag-->
 			
 		</footer> <!--Closing footer tag-->

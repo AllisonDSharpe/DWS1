@@ -9,7 +9,7 @@ body {
 #content {
 	background: linear-gradient(#d4d3a1, #f4e6a9); 
 	width: 95%;
-	margin: 20px auto; 
+	margin: auto auto; 
     padding: 10px 10px;
 	border: 2px solid #666666;
     border-radius: 2em 2em; 
@@ -199,15 +199,15 @@ tr :hover {
 		      	
 /* form elements */        
 form { 
-	width: 50%;  
+	width: 45%;  
 	text-align: left;
 	font-family: Open Sans, sans-serif; 
 	font-size: 0.9em; 
 	border: 2px solid #666666; 
 	border-radius: 2em 2em; 
-	margin: 0px auto; 
-	padding: 20px; 
 	background-color: #d4d3a1;
+	margin: 0px auto; 
+	padding: 30px; 
 	color: #666666;
 	}
 	
@@ -215,34 +215,34 @@ form {
 textarea {
 	text-align: left; 
 	width: 50%; 
-	border: 1px solid #666666;
-	padding: 20px;  
+	border: 1px solid #666666; 
+	padding: 3px; 
 	}
 
 /* "title" class elements */	
 .title {
-	clear: left; 
 	float: left; 
-	width: 42%
+	width: 45%;
+	clear: left; 
 }
 
-/* "title" and "input" class elements */
-.title + .input {
-	width: auto; 
+/* "input" class elements */
+.input {
+	float: left; 
 }
 
-/* "input" hover elements */
-.input:hover {
+/* "input", "comments", and "search" hover elements */
+.input:hover, #comments:hover, #search:hover {
 	background-color: #dfe1df;
 }
 
-/* "input" focus elements */
-.input:focus {
+/* "input", "comments", and "search" focus elements */
+.input:focus, #comments:focus, #search:focus {
 	background-color: #fef385;
 }
-	
+
 /* footer elements */	        	        
-footer {
+footer { 
 	margin: 100px 50px; 
 	background: url("../images/flower.png");
 	background-repeat: no-repeat; 

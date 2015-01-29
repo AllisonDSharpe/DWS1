@@ -158,7 +158,7 @@ article {
 	text-align: center; 
 	border: 3px solid #666666; 
 	border-radius: 2em 2em;
-	margin: 30px 300px;  
+	margin: 30px 300px 60px 300px; 
 	    	 }
 		    
 /* image hover elements */		 
@@ -200,23 +200,35 @@ tr :hover {
 /* form elements */        
 form { 
 	width: 50%;  
-	height: 100%; 
 	text-align: left;
 	font-family: Open Sans, sans-serif; 
 	font-size: 0.9em; 
 	border: 2px solid #666666; 
 	border-radius: 2em 2em; 
-	margin: 30px 285px; 
+	margin: 0px auto; 
 	padding: 20px; 
 	background-color: #d4d3a1;
 	color: #666666;
 	}
 	
-/* "title" class elements */
+/* text area elements */	        
+textarea {
+	text-align: left; 
+	width: 50%; 
+	border: 1px solid #666666;
+	padding: 20px;  
+	}
+
+/* "title" class elements */	
 .title {
-	float: left; 
-	width: 28%; 
 	clear: left; 
+	float: left; 
+	width: 42%
+}
+
+/* "title" and "input" class elements */
+.title + .input {
+	width: auto; 
 }
 
 /* "input" hover elements */
@@ -228,14 +240,6 @@ form {
 .input:focus {
 	background-color: #fef385;
 }
-
-/* text area elements */	        
-textarea {
-	text-align: left; 
-	width: 50%; 
-	border: 1px solid #666666;
-	padding: 20px;  
-	}
 	
 /* footer elements */	        	        
 footer {

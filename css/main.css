@@ -219,7 +219,7 @@ textarea {
 	}
 
 /* "title" class elements */	
-.title {
+.title, .input {
 	float: left; 
 	width: 45%;
 	clear: left; 
@@ -228,15 +228,20 @@ textarea {
 /* "input" class elements */
 .input {
 	float: left; 
+	}
+	
+/* "title", "firstname", "lastname", "console", "comments", and "submit" elements */	
+.title, #firstname, #lastname, #console, #comments, #submit {
+	margin-bottom: 10px; 
 }
 
 /* "input", "comments", and "search" hover elements */
-.input:hover, #comments:hover, #search:hover {
+.input:hover, #comments:hover, #submit:hover, #search:hover {
 	background-color: #dfe1df;
 }
 
 /* "input", "comments", and "search" focus elements */
-.input:focus, #comments:focus, #search:focus {
+.input:focus, #comments:focus, #submit:focus, #search:focus {
 	background-color: #fef385;
 }
 

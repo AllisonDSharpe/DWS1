@@ -20,8 +20,9 @@
 					<li><a href="#introduction">Introduction</a> </li>
 					<li><a href="#history">History</a> </li>
 					<li><a href="#genres">Genres</a> </li>
-					<li><a href="#imageGallery">Gallery</a> </li>
-					<li><a href="#copyright">Contact Me</a> </li>
+					<li><a href="#imagegallery">Gallery</a> </li>
+					<li><a href="#table">Statistics</a> </li> 
+					<li><a href="#contactinformation">Contact Me</a> </li>
 				</ul>
 		     </nav> <!--Closing main navigational tag-->
 	    </header> <!--Closing header tag-->
@@ -72,8 +73,9 @@
 				</ol>
 		</div> <!--Closing div tag for "consoles"-->
 		
-		<article> <!--Opening article tag-->
-			<h2> Image Gallery </h2>
+		<div id="imagegallery"> <!--Opening div tag for "imagegallery"-->
+			<article> <!--Opening article tag-->
+				<h2> Image Gallery </h2>
 					<figure>
 						<a href="images/xbox-large.jpg"
 						target="_blank"> <img src="images/xbox.jpg"
@@ -101,7 +103,8 @@
 						<figcaption> Nintendo gaming console over the years.
 						</figcaption>
 					</figure>
-		</article> <!--Closing article tag-->
+			</article> <!--Closing article tag-->
+		</div> <!--Closing div tag for "imagegallery"-->
 		
 			<h3> Image Sources </h3>
 			  <div id="imageSources"> <!--Opening div tag for "image sources"-->
@@ -112,6 +115,7 @@
 				</ol>
 			 </div> <!--Closing div tag for "image sources"--> 
 			
+	<div id="table"> <!--Opening div tag for "table"-->
 		<h2> Video Game Genre Statistics </h2> 	
 		<table> <!--Opening table tag-->
 			<tr>
@@ -151,57 +155,57 @@
 				<td> 3% </td> 
 			</tr>
 		</table> <!--Closing table tag-->
+	</div> <!--Closing div tag for "table"-->
 			
 		<footer> <!--Opening footer tag-->
-		
-			<h2> Contact Information </h2>
-			<p> Please take a few minutes to fill out the form below. Thank you. </p>
-
-			<form action="mailto:allisonsharpe@ymail.com" method="post"> <!--Opening form tag-->
-				<label for="firstname" class="title">What is Your First Name:</label> 
-					<input type="text" name="firstname" 	
-				      placeholder="Enter your first name" 
-				      id="firstname" maxlength="30" 
-				      required="required" class="input" /> 
+			<div id="contactinformation"> 
+				<h2> Contact Information </h2>
+				<p> Please take a few minutes to fill out the form below. Thank you. </p>
+				<form action="mailto:allisonsharpe@ymail.com" method="post"> <!--Opening form tag--> 
+					<label for="firstname" class="title">What is Your First Name:</label> 
+						<input type="text" name="firstname" 	
+				    	 placeholder="Enter your first name" 
+				      	 id="firstname" maxlength="30" 
+				         required="required" class="input" /> 
 				 	  
-				<label for="lastname" class="title">What is Your Last Name:</label> 
-					<input type="text" name="lastname" 
-					 placeholder="Enter your last name" 
-					 id="lastname" maxlength="30" 
-					 required="required" class="input" /> 
+					<label for="lastname" class="title">What is Your Last Name:</label> 
+						<input type="text" name="lastname" 
+					 	 placeholder="Enter your last name" 
+					 	 id="lastname" maxlength="30" 
+					 	 required="required" class="input" /> 
 	
-				<label for="female" class="title">What is Your Gender:</label> 
-				 	<input id="female" type="radio" 
-				 	 name="gender" value="f" 
-				 	 required="required" class="input" />
+					<label for="female" class="title">What is Your Gender:</label> 
+				 		<input id="female" type="radio" 
+				 	 	 name="gender" value="f" 
+				 	 	 required="required" class="input" />
 				    <label for="female" class="input">Female</label>
-				 	<input id="male" type="radio" 
-				 	 name="gender" value="m" 
-				 	 required="required" class="input" />
+				 		<input id="male" type="radio" 
+				 	 	 name="gender" value="m" 
+				 	     required="required" class="input" />
 				    <label for="male" class="input">Male</label> 
 
-				 <label for="console" class="title">Rate This Webpage: </label>
-					<select id="console" class="input">
-						<option value="poor">Poor</option> 
-						<option value="belowaverage">Below Average</option>
-						<option value="average">Average</option>
-				 		<option value="good">Good</option>
-				 		<option value="excellent">Excellent</option>
-			 		</select>
+				 	<label for="console" class="title">Rate This Webpage: </label>
+						<select id="console" class="input">
+							<option value="poor">Poor</option> 
+							<option value="belowaverage">Below Average</option>
+							<option value="average">Average</option>
+				 			<option value="good">Good</option>
+				 			<option value="excellent">Excellent</option>
+			 			</select>
 
-				<label for="comments" class="title">Additional Comments:</label>
-					<textarea name="comments" id="comments"> </textarea> 
+					<label for="comments" class="title">Additional Comments:</label>
+						<textarea name="comments" id="comments"> </textarea> 
 		
-				<label for="submit" class="title">Submit Your Form Here:</label>
-					<input type="text" id="submit" />
-					<input type="submit" value="Submit"/>
+					<label for="submit" class="title">Submit Your Form Here:</label>
+						<input type="text" id="submit" />
+						<input type="submit" value="Submit"/>
 					 
-				<label for="search" class="title">Search:</label>
-					<input type="search" id="search"
-					 placeholder="Enter keyword" />
-				    <input type="submit" value="Search" />  	 
-			</form> <!--Closing form tag-->
-			
+					<label for="search" class="title">Search:</label>
+						<input type="search" id="search"
+						 placeholder="Enter keyword" />
+				    	<input type="submit" value="Search" />  	 
+				</form> <!--Closing form tag-->
+			</div> <!--Closing div tag for "contactinformation"-->
 		</footer> <!--Closing footer tag-->
 			
 			<div id="copyright"> <!--Opening div tag for "copyright logo"-->

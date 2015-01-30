@@ -204,7 +204,6 @@ form {
 	font-family: Open Sans, sans-serif; 
 	font-size: 0.9em; 
 	border: 2px solid #666666; 
-	border-radius: 2em 2em; 
 	background-color: #d4d3a1;
 	margin: 0px auto; 
 	padding: 30px; 
@@ -219,7 +218,7 @@ textarea {
 	}
 
 /* "title" class elements */	
-.title, .input {
+.title {
 	float: left; 
 	width: 45%;
 	clear: left; 
